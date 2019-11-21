@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{FC418928-6555-4731-8427-F94CD713DB58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemInterface", "Interfaces\SemInterface.csproj", "{FC418928-6555-4731-8427-F94CD713DB58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
