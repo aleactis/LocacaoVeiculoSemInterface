@@ -11,10 +11,10 @@ namespace SemInterface
         static void Main(string[] args)
         {
             ForegroundColor = ConsoleColor.Yellow;
-            WriteLine("Digite os dados do aluguel".ToUpper());
+            WriteLine("Digite os dados do aluguel");
             ForegroundColor = ConsoleColor.Red;
-            Write("Modelo do carro: ".ToUpper());
-            string modelo = ReadLine().ToUpper();
+            Write("Modelo do carro: ");
+            string modelo = ReadLine();
             ResetColor();
             Write("Retirada do veículo: (dd/MM/yyyy hh:mm): ");
             ForegroundColor = ConsoleColor.Red;
@@ -41,10 +41,9 @@ namespace SemInterface
 
             ForegroundColor = ConsoleColor.Yellow;
             WriteLine();
-            WriteLine("::: FATURA :::");
+            WriteLine("::::::::::: FATURA :::::::::::");
             WriteLine(aluguelVeiculo.Fatura);
             ResetColor();
-
         }
     }
 }

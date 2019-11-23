@@ -27,7 +27,7 @@ namespace SemInterface.Entidades
                 + PagamentoBasico.ToString("F2", CultureInfo.InvariantCulture)
                 + "\nTaxa: "
                 + Taxa.ToString("F2", CultureInfo.InvariantCulture)
-                + "\nPagamento Total >> "
+                + "\nPagamento Total: "
                 + PagamentoTotal.ToString("F2", CultureInfo.InvariantCulture);
         }
     }
