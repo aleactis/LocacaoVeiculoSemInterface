@@ -5,7 +5,7 @@ using System.Globalization;
 
 namespace SemInterface.Entidades
 {
-    class Fatura
+    public class Fatura
     {
         public double PagamentoBasico { get; set; }
         public double Taxa { get; set; }
@@ -23,7 +23,7 @@ namespace SemInterface.Entidades
 
         public override string ToString()
         {
-            return "Pagamento báisco: "
+            return "Pagamento básico: "
                 + PagamentoBasico.ToString("F2", CultureInfo.InvariantCulture)
                 + "\nTaxa: "
                 + Taxa.ToString("F2", CultureInfo.InvariantCulture)

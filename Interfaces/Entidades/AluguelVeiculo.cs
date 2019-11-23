@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using SemInterface.Entidades;
 
 namespace SemInterface.Entidades
 {
-    class AluguelVeiculo
+    public class AluguelVeiculo
     {
         public DateTime Inicio { get; set; }
         public DateTime Fim { get; set; }
