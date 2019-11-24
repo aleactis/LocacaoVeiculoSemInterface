@@ -11,7 +11,8 @@ namespace SemInterface.Services
         public double PrecoPorDia { get; set; }
 
         //Declarar um objeto do tipo BrasilTaxaServices e instanciá-lo (Dependência). Não é ainda
-        //a melhor solução, pois uma melhor abordagem seria criar uma Interface.
+        //a melhor solução, pois uma melhor abordagem seria criar uma Interface. Temos
+        //que evitar o forte acoplamento.
         private BrasilTaxaServices _brasilTaxaService = new BrasilTaxaServices();
 
         public AluguelServices(double precoPorHora, double precoPorDia)
