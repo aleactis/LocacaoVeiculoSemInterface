@@ -23,7 +23,7 @@ namespace SemInterface.Services
         public void ProcessoFatura(AluguelVeiculo aluguelVeiculo)
         {
             TimeSpan duracao = aluguelVeiculo.Fim.Subtract(aluguelVeiculo.Inicio);
-            double pagamentoBasico = 0.0;
+            double pagamentoBasico = 0.00000;
 
             //Valida a duração da locação do veículo e arredonda para cima
             if (duracao.TotalHours <= 12.0)
